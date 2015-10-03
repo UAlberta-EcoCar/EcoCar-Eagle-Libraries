@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="10" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="LGA16">
+<wire x1="-1.84" y1="1.45" x2="1.99" y2="1.45" width="0.01" layer="21"/>
+<wire x1="-2.01" y1="1.28" x2="-2.01" y2="-1.55" width="0.01" layer="21"/>
+<wire x1="-2.01" y1="-1.55" x2="1.99" y2="-1.55" width="0.01" layer="21"/>
+<wire x1="1.99" y1="1.45" x2="1.99" y2="-1.55" width="0.01" layer="21"/>
+<smd name="2" x="-1.77" y="0.45" dx="1.5" dy="0.25" layer="1"/>
+<wire x1="-1.66" y1="1.17" x2="-1.66" y2="-1.27" width="0.01" layer="49"/>
+<wire x1="1.74" y1="1.17" x2="1.74" y2="-1.27" width="0.01" layer="49"/>
+<circle x="-1.82" y="1.26" radius="0.1" width="0.01" layer="21"/>
+<smd name="1" x="-1.77" y="0.95" dx="1.5" dy="0.25" layer="1"/>
+<smd name="3" x="-1.77" y="-0.05" dx="1.5" dy="0.25" layer="1"/>
+<smd name="4" x="-1.77" y="-0.55" dx="1.5" dy="0.25" layer="1"/>
+<smd name="5" x="-1.77" y="-1.05" dx="1.5" dy="0.25" layer="1"/>
+<wire x1="-1.66" y1="-1.27" x2="1.74" y2="-1.27" width="0.01" layer="49"/>
+<wire x1="1.74" y1="1.17" x2="-1.66" y2="1.17" width="0.01" layer="49"/>
+<wire x1="-2.01" y1="1.28" x2="-1.84" y2="1.45" width="0.01" layer="21"/>
+<smd name="12" x="1.85" y="0.45" dx="1.5" dy="0.25" layer="1"/>
+<smd name="13" x="1.85" y="0.95" dx="1.5" dy="0.25" layer="1"/>
+<smd name="11" x="1.85" y="-0.05" dx="1.5" dy="0.25" layer="1"/>
+<smd name="10" x="1.85" y="-0.55" dx="1.5" dy="0.25" layer="1"/>
+<smd name="9" x="1.85" y="-1.05" dx="1.5" dy="0.25" layer="1"/>
+<smd name="16" x="-0.51" y="1.47" dx="0.254" dy="1.2" layer="1"/>
+<smd name="15" x="-0.01" y="1.47" dx="0.254" dy="1.2" layer="1"/>
+<smd name="14" x="0.51" y="1.47" dx="0.254" dy="1.2" layer="1"/>
+<smd name="6" x="-0.51" y="-1.57" dx="0.254" dy="1.2" layer="1"/>
+<smd name="7" x="-0.01" y="-1.57" dx="0.254" dy="1.2" layer="1"/>
+<smd name="8" x="0.51" y="-1.57" dx="0.254" dy="1.2" layer="1"/>
+<text x="-1.77" y="2.37" size="0.762" layer="27" ratio="1">&gt;Value</text>
+<text x="-2.48" y="-3.12" size="0.8128" layer="49" ratio="1">&gt;NAME</text>
+<wire x1="-1.069340625" y1="1.10998125" x2="-1.0668" y2="1.10998125" width="0" layer="21"/>
+</package>
+<package name="PROTO_5_8">
+<pad name="P$1" x="-7.62" y="5.08" drill="0.8128" diameter="1.6256"/>
+<pad name="P$2" x="-5.08" y="5.08" drill="0.8128" diameter="1.6256"/>
+<pad name="P$3" x="-2.54" y="5.08" drill="0.8128" diameter="1.6256"/>
+<pad name="P$4" x="0" y="5.08" drill="0.8128" diameter="1.6256"/>
+<pad name="P$5" x="2.54" y="5.08" drill="0.8128" diameter="1.6256"/>
+<pad name="P$6" x="5.08" y="5.08" drill="0.8128" diameter="1.6256"/>
+<pad name="P$7" x="7.62" y="5.08" drill="0.8128" diameter="1.6256"/>
+<pad name="P$8" x="10.16" y="5.08" drill="0.8128" diameter="1.6256"/>
+<pad name="P$9" x="-7.62" y="2.54" drill="0.8128" diameter="1.6256"/>
+<pad name="P$10" x="-5.08" y="2.54" drill="0.8128" diameter="1.6256"/>
+<pad name="P$11" x="-2.54" y="2.54" drill="0.8128" diameter="1.6256"/>
+<pad name="P$12" x="0" y="2.54" drill="0.8128" diameter="1.6256"/>
+<pad name="P$13" x="2.54" y="2.54" drill="0.8128" diameter="1.6256"/>
+<pad name="P$14" x="5.08" y="2.54" drill="0.8128" diameter="1.6256"/>
+<pad name="P$15" x="7.62" y="2.54" drill="0.8128" diameter="1.6256"/>
+<pad name="P$16" x="10.16" y="2.54" drill="0.8128" diameter="1.6256"/>
+<pad name="P$17" x="-7.62" y="0" drill="0.8128" diameter="1.6256"/>
+<pad name="P$18" x="-5.08" y="0" drill="0.8128" diameter="1.6256"/>
+<pad name="P$19" x="-2.54" y="0" drill="0.8128" diameter="1.6256"/>
+<pad name="P$20" x="0" y="0" drill="0.8128" diameter="1.6256"/>
+<pad name="P$21" x="2.54" y="0" drill="0.8128" diameter="1.6256"/>
+<pad name="P$22" x="5.08" y="0" drill="0.8128" diameter="1.6256"/>
+<pad name="P$23" x="7.62" y="0" drill="0.8128" diameter="1.6256"/>
+<pad name="P$24" x="10.16" y="0" drill="0.8128" diameter="1.6256"/>
+<pad name="P$25" x="-7.62" y="-2.54" drill="0.8128" diameter="1.6256"/>
+<pad name="P$26" x="-5.08" y="-2.54" drill="0.8128" diameter="1.6256"/>
+<pad name="P$27" x="-2.54" y="-2.54" drill="0.8128" diameter="1.6256"/>
+<pad name="P$28" x="0" y="-2.54" drill="0.8128" diameter="1.6256"/>
+<pad name="P$29" x="2.54" y="-2.54" drill="0.8128" diameter="1.6256"/>
+<pad name="P$30" x="5.08" y="-2.54" drill="0.8128" diameter="1.6256"/>
+<pad name="P$31" x="7.62" y="-2.54" drill="0.8128" diameter="1.6256"/>
+<pad name="P$32" x="10.16" y="-2.54" drill="0.8128" diameter="1.6256"/>
+<pad name="P$33" x="-7.62" y="-5.08" drill="0.8128" diameter="1.6256"/>
+<pad name="P$34" x="-5.08" y="-5.08" drill="0.8128" diameter="1.6256"/>
+<pad name="P$35" x="-2.54" y="-5.08" drill="0.8128" diameter="1.6256"/>
+<pad name="P$36" x="0" y="-5.08" drill="0.8128" diameter="1.6256"/>
+<pad name="P$37" x="2.54" y="-5.08" drill="0.8128" diameter="1.6256"/>
+<pad name="P$38" x="5.08" y="-5.08" drill="0.8128" diameter="1.6256"/>
+<pad name="P$39" x="7.62" y="-5.08" drill="0.8128" diameter="1.6256"/>
+<pad name="P$40" x="10.16" y="-5.08" drill="0.8128" diameter="1.6256"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ADXL350">
+<wire x1="-20.32" y1="16.51" x2="24.13" y2="16.51" width="0.254" layer="94"/>
+<wire x1="24.13" y1="16.51" x2="24.13" y2="-26.67" width="0.254" layer="94"/>
+<wire x1="24.13" y1="-26.67" x2="-20.32" y2="-26.67" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-26.67" x2="-20.32" y2="16.51" width="0.254" layer="94"/>
+<pin name="VDDIO" x="-25.4" y="10.16" length="middle" direction="in"/>
+<pin name="NC@1" x="-25.4" y="2.54" length="middle" direction="nc" swaplevel="1"/>
+<pin name="NC@2" x="-25.4" y="-5.08" length="middle" direction="nc" swaplevel="2"/>
+<pin name="SCL/SCLK" x="-25.4" y="-12.7" length="middle" direction="in" swaplevel="3"/>
+<pin name="NC@3" x="-25.4" y="-20.32" length="middle" swaplevel="4"/>
+<pin name="SDA/SDI/SDIO" x="-5.08" y="-31.75" length="middle" swaplevel="5" rot="R90"/>
+<pin name="SDO/ALTADDRESS" x="2.54" y="-31.75" length="middle" swaplevel="6" rot="R90"/>
+<pin name="CS'" x="10.16" y="-31.75" length="middle" swaplevel="7" rot="R90"/>
+<pin name="INT2" x="29.21" y="-20.32" length="middle" swaplevel="8" rot="R180"/>
+<pin name="RESERVED@1" x="29.21" y="-12.7" length="middle" swaplevel="9" rot="R180"/>
+<pin name="INT1" x="29.21" y="-5.08" length="middle" swaplevel="10" rot="R180"/>
+<pin name="RESERVED@2" x="29.21" y="2.54" length="middle" swaplevel="11" rot="R180"/>
+<pin name="GND@1" x="29.21" y="10.16" length="middle" swaplevel="12" rot="R180"/>
+<pin name="VS" x="10.16" y="21.59" length="middle" swaplevel="13" rot="R270"/>
+<pin name="RESERVED@3" x="2.54" y="21.59" length="middle" swaplevel="14" rot="R270"/>
+<pin name="GND@2" x="-5.08" y="21.59" length="middle" swaplevel="14" rot="R270"/>
+<text x="-5.75" y="-3.33" size="2" layer="95" ratio="1">ADXL350</text>
+</symbol>
+<symbol name="PROTO_5_8">
+<text x="-17.78" y="5.08" size="1.27" layer="95">&gt; 5_8_Proto Area</text>
+<wire x1="-17.78" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="-17.78" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-12.7" x2="-17.78" y2="2.54" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ADXL350">
+<gates>
+<gate name="G$1" symbol="ADXL350" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LGA16">
+<connects>
+<connect gate="G$1" pin="CS'" pad="8"/>
+<connect gate="G$1" pin="GND@1" pad="13"/>
+<connect gate="G$1" pin="GND@2" pad="16"/>
+<connect gate="G$1" pin="INT1" pad="11"/>
+<connect gate="G$1" pin="INT2" pad="9"/>
+<connect gate="G$1" pin="NC@1" pad="2"/>
+<connect gate="G$1" pin="NC@2" pad="3"/>
+<connect gate="G$1" pin="NC@3" pad="5"/>
+<connect gate="G$1" pin="RESERVED@1" pad="10"/>
+<connect gate="G$1" pin="RESERVED@2" pad="12"/>
+<connect gate="G$1" pin="RESERVED@3" pad="15"/>
+<connect gate="G$1" pin="SCL/SCLK" pad="4"/>
+<connect gate="G$1" pin="SDA/SDI/SDIO" pad="6"/>
+<connect gate="G$1" pin="SDO/ALTADDRESS" pad="7"/>
+<connect gate="G$1" pin="VDDIO" pad="1"/>
+<connect gate="G$1" pin="VS" pad="14"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PROTO_5_8" uservalue="yes">
+<gates>
+</gates>
+<devices>
+<device name="" package="PROTO_5_8">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
