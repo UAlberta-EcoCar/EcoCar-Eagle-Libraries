@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -200,15 +200,15 @@
 <description>Digikey: SIA449DJ-T1-GE3CT-ND
 P-mosfet  30V 12A
 PowerPAK® SC-70-6</description>
-<smd name="P$1" x="-0.325" y="0" dx="0.95" dy="1.5" layer="1"/>
-<smd name="P$2" x="-0.65" y="0.925" dx="0.3" dy="0.35" layer="1"/>
-<smd name="P$3" x="0" y="0.925" dx="0.3" dy="0.35" layer="1"/>
-<smd name="P$4" x="0.65" y="0.95" dx="0.3" dy="0.35" layer="1"/>
-<smd name="P$5" x="0.6675" y="0.04" dx="0.235" dy="0.87" layer="1"/>
-<smd name="P$6" x="0.65" y="-0.95" dx="0.3" dy="0.35" layer="1"/>
-<smd name="P$7" x="0" y="-0.925" dx="0.3" dy="0.35" layer="1"/>
-<smd name="P$8" x="-0.65" y="-0.925" dx="0.3" dy="0.35" layer="1"/>
+<smd name="P$1" x="-0.325" y="0" dx="0.95" dy="2.67" layer="1"/>
+<smd name="P$4" x="0.65" y="1.05" dx="0.3" dy="0.55" layer="1"/>
+<smd name="P$5" x="0.8" y="0.04" dx="0.5" dy="0.87" layer="1"/>
+<smd name="P$6" x="0.65" y="-1.05" dx="0.3" dy="0.55" layer="1"/>
 <text x="0.4" y="-1.1" size="0.15" layer="21" rot="R90">SIA449DJ-T1-GE3CT-ND</text>
+<wire x1="-0.9" y1="1.5" x2="1.2" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.2" y1="1.5" x2="1.2" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.2" y1="-1.5" x2="-0.9" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-0.9" y1="-1.5" x2="-0.9" y2="1.5" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -327,32 +327,19 @@ PowerPAK® SC-70-6</description>
 <wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
 </symbol>
 <symbol name="P-MOS">
-<pin name="P$S" x="0" y="8.89" length="middle" rot="R270"/>
-<pin name="P$D" x="0" y="-11.43" length="middle" rot="R90"/>
-<pin name="P$G" x="-13.97" y="3.81" length="middle"/>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="3.81" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="3.81" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-6.35" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="3.81" width="0.254" layer="94"/>
-<wire x1="0" y1="3.81" x2="-2.54" y2="3.81" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-2.54" x2="0" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-6.35" x2="2.54" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-1.27" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-1.27" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="3.81" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-2.54" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-6.35" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<pin name="P$S" x="0" y="5.08" visible="off" length="short" rot="R270"/>
+<pin name="P$D" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
+<pin name="P$G" x="7.62" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="0" y1="2.54" x2="2.032" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.032" y1="2.54" x2="2.794" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.794" y1="2.54" x2="2.794" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.794" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.032" y1="2.54" x2="1.016" y2="3.556" width="0.254" layer="94"/>
+<wire x1="1.016" y1="3.556" x2="1.016" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.524" x2="2.032" y2="2.54" width="0.254" layer="94"/>
+<wire x1="3.556" y1="2.286" x2="3.556" y2="0" width="0.254" layer="94"/>
+<wire x1="3.556" y1="0" x2="3.556" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="3.556" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -561,7 +548,7 @@ Digikey: SIA449DJ-T1-GE3CT-ND</description>
 <devices>
 <device name="" package="SIA449DJ-T1-GE3CT-ND">
 <connects>
-<connect gate="G$1" pin="P$D" pad="P$1 P$2 P$3 P$7 P$8"/>
+<connect gate="G$1" pin="P$D" pad="P$1" route="any"/>
 <connect gate="G$1" pin="P$G" pad="P$4"/>
 <connect gate="G$1" pin="P$S" pad="P$5 P$6"/>
 </connects>
